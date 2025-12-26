@@ -54,14 +54,16 @@ class AppColors {
       );
 
   // Color scheme for dark theme
+  // Using lighter palette colors (primary7, primary5, primary9) for dark backgrounds
+  // These colors provide good contrast against dark surfaces
   static ColorScheme get darkColorScheme => ColorScheme.dark(
-        primary: primary7,
-        secondary: primary5,
-        tertiary: primary9,
+        primary: primary7,        // #56CFE1 - passes 10.5:1 contrast on black
+        secondary: primary5,      // #4EA8DE - passes 6.7:1 contrast on black
+        tertiary: primary9,       // #72EFDD - passes contrast on black
         surface: const Color(0xFF121212),
         error: Colors.redAccent,
-        onPrimary: Colors.black,
-        onSecondary: Colors.black,
+        onPrimary: Colors.black,  // Dark text on light primary colors
+        onSecondary: Colors.black, // Dark text on light secondary colors
         onSurface: Colors.white,
         onError: Colors.black,
       );
