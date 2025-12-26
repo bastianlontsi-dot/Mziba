@@ -1,6 +1,13 @@
 # flutter mziba (Backend #firebase )
 
-features
+## Visual Identity
+
+The application uses an official color palette for consistent branding and visual identity.
+See [COLOR_PALETTE.md](COLOR_PALETTE.md) for the complete color palette documentation.
+
+The color configuration is available at `lib/config/app_colors.dart`.
+
+## Features
 
 - sign in ,sign up
 - register device token on sign in (used for chatting to send notification to specific device)
