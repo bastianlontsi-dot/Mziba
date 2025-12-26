@@ -261,7 +261,6 @@ AuthKey_*.p8
 *.rar
 
 # Configuration files (custom)
-config/
 /config
 /app
 /linux
