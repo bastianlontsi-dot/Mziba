@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mziba</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+    window.onload = function () {
+      var isAndroid = /android/i.test(navigator.userAgent);
+      var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isAndroid) {
+        // Redirect to the Play Store
+        window.location.href = 'https://play.google.com/store/apps/details?id=com.service.mziba&hl=fr&gl=US';
+      } else if (isiOS) {
+        // Redirect to the App Store
+        window.location.href = 'https://apps.apple.com/tt/app/mziba/id6746719518?l=fr-FR';
+      } else {
+        https://appstoreconnect.apple.com/apps/6746719518/distribution/ios/version/inflight
+        // Redirect to Mziba website for desktop users
+        window.location.href = 'https://mziba.netlify.app';
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1>Redirection en cours...</h1>
+  <p>Si vous n'êtes pas redirigé automatiquement, <a href="https://mziba.netlify.app">cliquez ici</a>.</p>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDzfEs6CxNQydx4-3c75D1zSjTIQePzYrA",
+      authDomain: "mziba-1e083.firebaseapp.com",
+      databaseURL: "https://mziba-1e083.web.app/",
+      projectId: "mziba-1e083",
+      storageBucket: "mziba-1e083.firebasestorage.app",
+      messagingSenderId: "1082210401438",
+      appId: "1:1082210401438:web:ef9d9abf8a8f691c28cf8f",
+      measurementId: "G-PY61TCHE91"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+
+</html>

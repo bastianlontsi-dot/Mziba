@@ -1,0 +1,16 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "U9MXU5QV7C.com.paysika.co",
+                "appId": "U9MXU5QV7C.com.firebase.UniversalLinks",
+                "paths": [
+                    "*",
+                    "NOT/_/*",
+                    "/*"
+                ]
+            }
+        ]
+    }
+}
