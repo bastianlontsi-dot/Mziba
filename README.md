@@ -3,9 +3,17 @@
 ## Visual Identity
 
 The application uses an official color palette for consistent branding and visual identity.
-See [COLOR_PALETTE.md](COLOR_PALETTE.md) for the complete color palette documentation.
 
-The color configuration is available at `lib/config/app_colors.dart`.
+**Quick Start:** [COLOR_PALETTE_QUICKSTART.md](COLOR_PALETTE_QUICKSTART.md)
+
+**Documentation:**
+- [COLOR_PALETTE.md](COLOR_PALETTE.md) - Complete color palette documentation
+- [assets/design/COLOR_REFERENCE.md](assets/design/COLOR_REFERENCE.md) - Design tool references (Figma, CSS, Android, iOS, etc.)
+
+**Implementation:**
+- `lib/config/app_colors.dart` - Main color definitions
+- `lib/config/color_palette_demo.dart` - Visual demo screen
+- `lib/config/color_usage_examples.dart` - Code examples
 
 ## Features
 
