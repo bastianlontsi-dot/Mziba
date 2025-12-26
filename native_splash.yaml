@@ -1,0 +1,19 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  color: "#ffffff"
+
+  image: "assets/icons/mziba_icon.png"
+  # branding: assets/branding-development.png
+  # color_dark: "#121212"
+  # image_dark: "assets/icons/mziba_icon.png"
+  # branding_dark: assets/branding-development.png
+
+  android_12:
+    image: "assets/icons/mziba_icon.png"
+    color: "#ffffff"
+    icon_background_color: "#ffffff"
+    image_dark: "assets/icons/mziba_icon.png"
+    # icon_background_color_dark: "#121212"
