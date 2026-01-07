@@ -1,0 +1,15 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.service.mziba",
+        "sha256_cert_fingerprints":
+          [ "7F:82:80:1F:88:6E:DC:CB:7F:D8:91:E2:5A:1B:3B:DE:4A:31:BB:42:0A:8C:95:3B:2B:A8:2A:99:7A:2A:E5:49",
+            "55:B2:8C:5B:6C:63:8A:4A:24:C8:90:99:A3:9C:CB:E3:6B:35:40:4C:E4:43:9B:45:6A:37:C2:89:78:87:DD:D7",
+            "6E:37:D6:B0:31:7E:01:98:82:CB:ED:68:F0:61:BE:30:D0:FC:EC:F8:9B:90:82:C3:4C:03:38:84:A2:29:14:72",
+            "9A:64:FF:97:F9:CD:0E:2E:01:5B:C3:93:AC:22:0B:9C:A9:92:60:6D:9C:48:26:2B:49:FA:6A:6A:B5:D9:25:1A",
+            "00:06:19:FF:AF:17:4A:1E:5C:A1:2B:5A:C1:49:4E:FF:A0:16:60:2A:10:59:9F:B7:DA:83:B8:8A:1C:CE:D1:6A"]
+      }
+    }
+]
